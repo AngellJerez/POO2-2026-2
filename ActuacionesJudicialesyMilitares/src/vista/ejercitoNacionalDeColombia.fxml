@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0000a3" height="329.0" layoutX="336.0" layoutY="70.0" stroke="BLACK" strokeType="INSIDE" width="278.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff7a213d" height="413.0" layoutX="167.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff3e" height="413.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Label layoutX="368.0" layoutY="15.0" text="EJERCITO NACIONAL DE COLOMBIA" />
+      <Button layoutX="14.0" layoutY="337.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="143.0" text="REPORTAR NOVEDAD" />
+      <Button layoutX="365.0" layoutY="213.0" mnemonicParsing="false" text="ACTIVAR PROTOCOLO DE SEGURIDAD" />
+      <Button layoutX="195.0" layoutY="337.0" mnemonicParsing="false" text="REGISTRAR MILITAR" />
+      <Label layoutX="14.0" layoutY="50.0" text="Descripcion de la novedad:" />
+      <TextArea layoutX="14.0" layoutY="67.0" prefHeight="143.0" prefWidth="143.0" />
+      <Label layoutX="14.0" layoutY="217.0" text="Clasificacion:" />
+      <TextField layoutX="14.0" layoutY="242.0" prefHeight="25.0" prefWidth="143.0" />
+      <TextField layoutX="176.0" layoutY="71.0" />
+      <Label layoutX="231.0" layoutY="50.0" text="Cedula:" />
+      <Label layoutX="227.0" layoutY="101.0" text="Nombre:" />
+      <Label layoutX="194.0" layoutY="151.0" text="Fecha de nacimiento:" />
+      <Label layoutX="233.0" layoutY="194.0" text="Grado:" />
+      <Label layoutX="204.0" layoutY="242.0" text="Unidad asignada:" />
+      <Label layoutX="195.0" layoutY="284.0" text="Estado tras el hecho:" />
+      <TextField layoutX="177.0" layoutY="118.0" />
+      <TextField layoutX="177.0" layoutY="168.0" />
+      <TextField layoutX="176.0" layoutY="213.0" />
+      <TextField layoutX="177.0" layoutY="259.0" />
+      <TextField layoutX="177.0" layoutY="301.0" />
+   </children>
+</Pane>

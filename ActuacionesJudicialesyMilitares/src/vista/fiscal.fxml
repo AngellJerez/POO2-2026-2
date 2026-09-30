@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff3e" height="413.0" layoutY="-10.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Label layoutX="282.0" layoutY="14.0" text="FISCAL" />
+      <Button layoutX="16.0" layoutY="361.0" mnemonicParsing="false" text="REPORTAR ATENTADO" />
+      <Label layoutX="57.0" layoutY="14.0" text="Municipio:" />
+      <Label layoutX="64.0" layoutY="71.0" text="Delitos:" />
+      <Label layoutX="38.0" layoutY="217.0" text="Escena del hecho:" />
+      <TextField layoutX="10.0" layoutY="38.0" />
+      <Button layoutX="41.0" layoutY="184.0" mnemonicParsing="false" text="Añadir delito" />
+      <TextField layoutX="9.0" layoutY="113.0" />
+      <TextField layoutX="10.0" layoutY="157.0" />
+      <Label layoutX="9.0" layoutY="96.0" text="Articulo del codigo penal:" />
+      <Label layoutX="9.0" layoutY="138.0" text="Nombre:" />
+      <Label layoutX="9.0" layoutY="234.0" text="Fecha:" />
+      <Label layoutX="6.0" layoutY="282.0" text="Coordenadas:" />
+      <TextField layoutX="9.0" layoutY="251.0" />
+      <TextField layoutX="10.0" layoutY="303.0" />
+      <ChoiceBox layoutX="176.0" layoutY="113.0" prefWidth="150.0" />
+      <Button layoutX="196.0" layoutY="145.0" mnemonicParsing="false" text="ELIMINAR DELITO" />
+   </children>
+</Pane>
